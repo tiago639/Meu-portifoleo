@@ -1,0 +1,21 @@
+#experiencia {
+  padding: 2rem 1rem;
+}
+
+#experiencia ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+  
+}
+
+#experiencia li {
+  margin-bottom: 1.5rem; /* mais espaçamento entre itens */
+  line-height: 1.6; /* melhorar legibilidade */
+}
+
+/* Espaçamento maior para os itens que são títulos (ex: que começam com 📌) */
+#experiencia li[data-title="true"] {
+  margin-top: 2rem; /* espaço extra acima */
+  margin-bottom: 1rem; /* espaço abaixo menor */
+  font-weight: 600;
+}

@@ -1,0 +1,112 @@
+/* Reset básico */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Container principal */
+.home {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-left: 10%; /* Mantido como estava */
+  color: white;
+  overflow: hidden;
+}
+
+/* Camada escura sobre o fundo */
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+/* Estilo das partículas */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+/* Container do conteúdo principal */
+.overlay {
+  max-width: 900px; /* Aumentado para 900px */
+  width: 80%; /* Ocupa 80% do espaço disponível */
+  position: relative;
+  z-index: 2;
+  padding-right: 5%; /* Espaço à direita */
+
+}
+
+/* Título "BEM-VINDOS" */
+.titulo-destaque {
+  font-size: 2.0rem;
+  margin: 10px 0; /* Corrigido o valor da margem */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+/* Nome "Tiago Fonseca" */
+.nome {
+  font-size: 4.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  line-height: 2;
+  border-bottom: none; /* Remove qualquer borda inferior */
+  text-decoration: none; /* Remove sublinhado se houver */
+  padding-bottom: 2; /* Remove padding inferior se existir */
+  margin-bottom: 1; /* Remove margem inferior se for isso */
+}
+
+/* Profissões */
+.profissoes {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+/* Localização */
+.localizacao {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+/* Linha lateral */
+.linha-lateral {
+  width: 50px;
+  height: 3px;
+  background: white;
+  margin-right: 15px;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .overlay {
+    width: 90%; /* Mais espaço em mobile */
+    max-width: 100%;
+  }
+  
+  .nome {
+    font-size: 3.5rem; /* Tamanho menor em mobile */
+  }
+  
+  .titulo-destaque {
+    font-size: 2rem;
+  }
+}

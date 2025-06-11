@@ -1,0 +1,56 @@
+/* Layout para telas grandes (menu alinhado à direita) */
+.header {
+  background-color: #000000;
+  padding: 1px 0;
+  display: flex;
+  justify-content: flex-end; /* Alinha à direita */
+}
+
+.nav-menu {
+  margin-right: 30px; /* Pequeno recuo da borda direita */
+}
+
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 10px;
+  flex-wrap: nowrap; /* Não quebra linha em telas grandes */
+}
+
+.nav-menu a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: 'Arial', sans-serif;
+  transition: color 0.3s;
+  font-size: 16px;
+}
+
+.nav-menu a:hover {
+  color: #00ffff;
+}
+
+/* Layout para telas pequenas */
+@media (max-width: 768px) {
+  .header {
+    justify-content: center; /* Alinha ao centro no mobile */
+  }
+
+  .nav-menu {
+    margin-right: 0; /* Remove margem à direita */
+     width: 100%
+  }
+
+  .nav-menu ul {
+    flex-wrap: wrap;  /* Permite quebra */
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .nav-menu a {
+    font-size: 14px;
+  }
+}

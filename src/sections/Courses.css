@@ -1,0 +1,128 @@
+/* Estilos base */
+.courses-section {
+  padding: 4rem 0;
+  background-color: #f8fafc;
+}
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3rem;
+  color: #0f172a;
+
+  margin-bottom: 3rem;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: #fdfeff;
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+   margin-top: 2.5rem;
+}
+
+/* Grid de cursos */
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Card de curso */
+.course-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: #f1f5f9;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.certificate-badge {
+  color: #030303;
+  transition: color 0.3s ease;
+}
+
+.certificate-badge:hover {
+  color: #080808;
+}
+
+.certificate-badge svg {
+  width: 20px;
+  height: 20px;
+}
+
+.course-date {
+  font-size: 0.85rem;
+  color: #000000;
+  font-weight: 500;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.course-title {
+  font-size: 1.1rem;
+  color: #0f172a;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.course-institution {
+  color: #10a081;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.course-details {
+  color: #64748b;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .courses-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .section-title {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .courses-section {
+    padding: 3rem 0;
+  }
+  
+  .section-container {
+    padding: 0 1rem;
+  }
+}
+#courses h2.section-title {
+  border-bottom: none !important;
+  box-shadow: none !important;
+  background-image: none !important;
+}
