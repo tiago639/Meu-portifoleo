@@ -15,9 +15,9 @@ const projectsByCategory = [
       },
       {
         id: 2,
-        title: 'Embreve ',
-        description: 'Análise de DRE.',
-        githubUrl: '',
+        title: 'Dashboard DRE Interativo',
+        description: 'Visualização dinâmica da Demonstração do Resultado do Exercício (DRE), com gráficos de receita, lucro e margem EBITDA.',
+        githubUrl: 'https://github.com/tiago639/Analise-DRE',
       },
       {
         id: 3,
