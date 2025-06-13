@@ -18,6 +18,7 @@ const projectsByCategory = [
         title: 'Dashboard DRE Interativo',
         description: 'Visualização dinâmica da Demonstração do Resultado do Exercício (DRE), com gráficos de receita, lucro e margem EBITDA.',
         githubUrl: 'https://github.com/tiago639/Analise-DRE',
+        powerBiUrl: 'https://app.powerbi.com/view?r=eyJrIjoiODM5MmJkYmQtNTJkZi00YzQxLTgxODYtOTdmNTc5YmE3ZmY2IiwidCI6IjE0NmNlYmE1LTcyNDUtNGI2OS1iNWUyLTEzZTRhNTM3NGZiMCIsImMiOjF9'
       },
       {
         id: 3,
