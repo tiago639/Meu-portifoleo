@@ -39,9 +39,9 @@ const projectsByCategory = [
       },
       {
         id: 5,
-        title: 'Embreve ',
-        description: 'Script de Insert no banco de daddo.',
-        githubUrl: '',
+        title: 'Insert Banco de Dados',
+        description: 'Inserção de dados em um banco de dados relacional para o setor de Recursos Humanos, utilizando MySQL e Oracle.',
+        githubUrl: 'https://github.com/tiago639/Insert-Banco-de-Dados',
       },
       {
         id: 6,
