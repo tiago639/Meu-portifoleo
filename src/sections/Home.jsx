@@ -27,7 +27,6 @@ function Home() {
         </div>
         <h2 className="nome">Tiago Fonseca da Silva</h2>
         <p className="profissoes">Analista de Dados | Cientista de Dados | Engenheiro de Dados</p>
-        <p className="localizacao">Ilhabela / SP, Brasil</p>
       </div>
     </section>
   );
