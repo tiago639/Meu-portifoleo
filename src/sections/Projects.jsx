@@ -22,10 +22,23 @@ const projectsByCategory = [
       },
       {
         id: 3,
+        title: 'Análise de vendas',
+        description: 'Dashboard interativo criado com Power BI para análise de desempenho de vendas, incluindo indicadores de receita, volume de vendas, produtos mais vendidos e comparativos mensais.',
+        githubUrl: 'https://github.com/tiago639/Analise-Vendas',
+        powerBiUrl:'https://app.powerbi.com/view?r=eyJrIjoiZTE3ZTA2NWUtOWFlZS00MWVlLTljYWQtMzQwODRmYWE1YTZkIiwidCI6IjE0NmNlYmE1LTcyNDUtNGI2OS1iNWUyLTEzZTRhNTM3NGZiMCIsImMiOjF9'
+      },{
+        id: 4,
+        title: 'Análise de Fórmula 1',
+        description: 'Projeto em desenvolvimento focado na análise de dados históricos da Fórmula 1, com visualizações sobre pilotos, equipes, circuitos e desempenho ao longo das temporadas.',
+        githubUrl: 'https://github.com/tiago639/Analise-Formula-1',
+        powerBiUrl:'https://app.powerbi.com/view?r=eyJrIjoiZDkxZjZhOGItMDVmZi00ZTA2LThiYjUtODEzY2NlMmE1N2RiIiwidCI6IjE0NmNlYmE1LTcyNDUtNGI2OS1iNWUyLTEzZTRhNTM3NGZiMCIsImMiOjF9'
+      },{
+        id: 4,
         title: 'Embreve',
-        description: 'Análise de vendas.',
+        description: 'Em desenvolvimento.',
         githubUrl: '',
-      },
+        powerBiUrl:''
+      }
     ],
   },
   {
